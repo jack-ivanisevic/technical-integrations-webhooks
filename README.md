@@ -10,6 +10,23 @@ The goal is to create clean, scalable integrations that support automation, data
 
 ---
 
+## Integration Flow (Simplified)
+
+```text
+Source System (App / Store / Service)
+        ↓
+Webhook Endpoint / API Receiver
+        ↓
+Payload Validation & Parsing
+        ↓
+Data Transformation & Mapping
+        ↓
+CRM / Database / External Service
+        ↓
+Logging & Error Handling
+```
+---
+
 ## Project Objectives
 
 - Enable real-time communication between systems using APIs and webhooks  
